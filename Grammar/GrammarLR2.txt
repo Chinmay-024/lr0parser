@@ -1,0 +1,8 @@
+S
+E T F
++ * ( ) id
+id + id
+S -> E
+E -> E + T | T
+T -> F * T | F
+F -> (E) | id

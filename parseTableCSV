@@ -1,0 +1,14 @@
+State,$,,,:,;,d,id,integer,real,var,D,L,T
+0,$,,,:,;,d,id,integer,real,S2,1,,
+1,Accept,,,:,;,d,id,integer,real,var,,,
+2,$,,,:,;,d,S4,integer,real,var,,3,
+3,$,S5,S6,;,d,id,integer,real,var,,,
+4,R3,R3,R3,R3,R3,R3,R3,R3,R3,,,
+5,$,,,:,;,d,S7,integer,real,var,,,
+6,$,,,:,;,d,id,S9,S10,var,,,8
+7,R2,R2,R2,R2,R2,R2,R2,R2,R2,,,
+8,$,,,:,S11,d,id,integer,real,var,,,
+9,R4,R4,R4,R4,R4,R4,R4,R4,R4,,,
+10,R5,R5,R5,R5,R5,R5,R5,R5,R5,,,
+11,$,,,:,;,S12,id,integer,real,var,,,
+12,R0,R0,R0,R0,R0,R0,R0,R0,R0,,,
