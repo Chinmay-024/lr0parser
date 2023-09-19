@@ -686,14 +686,27 @@ int main()
         return 0;
 
     // Build LR(0) states
+    string filename = "Rules.txt";
+    std::ofstream outputFile1(filename);
+
+    if (!outputFile1.is_open())
+    {
+        cerr << "Error: Unable to open file " << filename << " for writing." << endl;
+        return 0;
+    }
     vector<LR0State> states = buildLR0States();
+    int k = 0;
     for (auto i : productionRules)
     {
         for (auto j : i.second)
         {
             r.push_back(i.first + " -> " + j);
+            outputFile1 << "R" << k << " : " << (i.first + " -> " + j) << endl;
+            k++;
         }
     }
+
+    outputFile1.close();
 
     // Construct the LR(0) parsing table
     terminals.insert("$");

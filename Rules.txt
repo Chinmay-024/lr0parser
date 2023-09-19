@@ -1,0 +1,6 @@
+R0 : D -> var L : T ; d
+R1 : D' -> D
+R2 : L -> L , id
+R3 : L -> id
+R4 : T -> integer
+R5 : T -> real
